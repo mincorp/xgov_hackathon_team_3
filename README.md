@@ -12,3 +12,7 @@ rm -rf ~/miniconda3/miniconda.sh
 ~/miniconda3/bin/conda init bash
 ~/miniconda3/bin/conda init zsh
 ```
+
+2. Create new conda env from yml file
+```
+conda env create -n hackathon --file=environments.yml
