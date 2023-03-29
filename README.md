@@ -15,4 +15,4 @@ rm -rf ~/miniconda3/miniconda.sh
 
 2. Create new conda env from yml file
 ```
-conda env create -n hackathon --file=environments.yml
+conda env create -n hackathon --file=environment.yml
